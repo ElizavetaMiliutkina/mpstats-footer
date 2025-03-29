@@ -47,7 +47,7 @@ export const footerContent = `
       <a href="#" class="footer__link">Политика конфиденциальности</a>
     </div>
       
-    <p class="footer__copyright">С ❤️ из Санкт-Петербурга © ${new Date().getFullYear()} ООО «МПСТАТС ПРОДВИЖЕНИЕ»</p>
+    <p class="footer__copyright">С ❤️ из Санкт-Петербурга ©2025 ООО «МПСТАТС ПРОДВИЖЕНИЕ»</p>
     </div>
   </footer>
 `;
