@@ -10,7 +10,7 @@ export const footerContent = `
 
       <div class="footer__column footer__column--contacts">
         <a class="footer__text--phone" href="tel:+74953207777" rel="nofollow">+7 495 320-77-77</a>
-        <p class="footer__text">195257, г. Санкт-Петербург, Гражданский пр., д. 100С1, пом. 5</p>
+        <p class="footer__text">195257, г. Санкт-Петербург, Гражданский пр., д. 100c1, пом. 5</p>
         <p class="footer__text">info@mpstats.io</p>
         <div class="footer__social-links">
           <a href="https://www.youtube.com/c/mpstats" target="_blank" class="footer__social-link">
