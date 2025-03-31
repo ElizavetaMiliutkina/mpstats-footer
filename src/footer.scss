@@ -35,13 +35,14 @@
     &--logo {
       .footer__description {
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 24px;
       }
     }
 
     &--contacts {
       .footer__text {
         font-size: 16px;
+        line-height: 24px;
         &--phone {
           display: block;
           margin-bottom: 8px;
@@ -70,6 +71,14 @@
       .footer__text {
         font-size: 16px;
       }
+      &__wrapper {
+        display: flex;
+        gap: 16px;
+
+        div {
+          line-height: 24px;
+        }
+      }
     }
   }
 
@@ -78,7 +87,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 20px auto 0;
+    margin: 100px auto 0;
     padding-top: 20px;
     flex-wrap: wrap;
     font-size: 12px;
@@ -101,7 +110,7 @@
 
   @media (max-width: 960px) {
     &__container {
-      justify-content: flex-start;
+      justify-content: space-between;
     }
 
     &__column {
@@ -130,6 +139,7 @@
     &__bottom {
       flex-direction: column;
       text-align: center;
+      margin: 24px auto 0;
     }
   }
 
@@ -152,6 +162,10 @@
       &__social-icon {
         width: 20px;
         height: 20px;
+      }
+
+      &__bottom {
+        margin: 24px auto 0;
       }
     }
   }

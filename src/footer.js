@@ -31,9 +31,20 @@ export const footerContent = `
 
       <div class="footer__column footer__column--details">
         <div class="footer__text--title">ООО «МПСТАТС ПРОДВИЖЕНИЕ»</div>
-        <p class="footer__text">ИНН 7804713205</p>
-        <p class="footer__text">КПП 780401001</p>
-        <p class="footer__text">ОГРН 1257800005781</p>
+        <div class="footer__column--details__wrapper">
+        <div>
+            <p class="footer__text">ИНН </p>
+            <p class="footer__text">КПП </p>
+            <p class="footer__text">ОГРН </p>
+        </div>
+        <div>
+            <p class="footer__text"> 7804713205</p>
+            <p class="footer__text"> 780401001</p>
+            <p class="footer__text"> 1257800005781</p>
+        </div>
+            
+        </div>
+        
       </div>
     </div>
 
